@@ -4,9 +4,12 @@
   "description": "Ceasar Cipher with RGR",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "keywords": [],
   "author": "syljon",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "25.4.0"
+  }
 }
