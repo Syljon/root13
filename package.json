@@ -4,6 +4,7 @@
   "description": "Ceasar Cipher with RGR",
   "main": "index.js",
   "scripts": {
+    "start": "node cesare13.js",
     "test": "jest"
   },
   "keywords": [],
