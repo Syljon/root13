@@ -21,4 +21,19 @@ describe('cesare13', () => {
     const results = cesare13('ABC');
     expect(results).toBe('NOP');
   });
+
+  it('should return nop from abc', () => {
+    const results = cesare13('abc');
+    expect(results).toBe('nop');
+  });
+
+  it('should return nopNOP from abcABC', () => {
+    const results = cesare13('abcABC');
+    expect(results).toBe('nopNOP');
+  });
+
+  it('should return Nyn zn xbgn, n xbg zn Nyr from Ala ma kota, a kot ma Ale', () => {
+    const results = cesare13('Ala ma kota, a kot ma Ale');
+    expect(results).toBe('Nyn zn xbgn, n xbg zn Nyr');
+  });
 });
